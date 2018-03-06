@@ -1,1 +1,5 @@
+#merge tracks from one cd
+sox Track\ 1.wav Track\ 2.wav Track\ 3.wav Track\ 4.wav all_tracks_cd1.wav
 
+#convert2mp3
+ffmpeg -i all_cds.wav -vn -ac 2 -ab 128k -f mp3 output.mp3
