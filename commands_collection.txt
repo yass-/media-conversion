@@ -1,1 +1,8 @@
 
+
+
+
+
+#youtube-dl
+-F #shows all formats
+-f <number> #select one format 
